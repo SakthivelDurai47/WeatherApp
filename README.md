@@ -7,13 +7,17 @@ A simple weather app that fetches real-time weather data using the **OpenWeather
 - Shows temperature in Celsius
 - Displays humidity percentage
 - Weather description + emoji icons
-- Responsive design for desktop and mobile
+- Responsive design for desktop and mobile (looks best on mobile)
 
 ## Tech Stack
 - HTML5  
 - CSS3  
 - JavaScript (ES6)  
 - OpenWeather API  
+
+## Testing
+   Test this web application by clicking on the link below
+   [RunApp](https://sakthiveldurai47.github.io/WeatherApp/)
 
 ## Getting Started
 1. Clone the repository:
@@ -27,7 +31,8 @@ A simple weather app that fetches real-time weather data using the **OpenWeather
 2. Add your API key in `script.js`:
    ```javascript
    const API_KEY = "your_api_key_here";
-## Future Improvements
+   
+## Future Improvements Ideas
 - Add hourly/daily forecast charts  
 - Show location-based weather using Geolocation API  
 - Toggle between Celsius ↔ Fahrenheit  
