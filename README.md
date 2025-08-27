@@ -16,7 +16,7 @@ A simple weather app that fetches real-time weather data using the **OpenWeather
 - OpenWeather API  
 
 ## Testing
-   Test this web application by clicking on the link below
+   Test this web application by clicking on the link -> 
    [RunApp](https://sakthiveldurai47.github.io/WeatherApp/)
 
 ## Getting Started
