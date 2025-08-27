@@ -50,6 +50,7 @@ function displayWeather(data) {
   const sec2a = document.createElement("div");
   const sec2b = document.createElement("div");
   const sec3 = document.createElement("div");
+  const sec3a = document.createElement("div");
 
   cityDisplay.textContent = city;
   tempDisplay.textContent = `${(temp - 273.15).toFixed(1)}°C`;
@@ -73,6 +74,7 @@ function displayWeather(data) {
   sec2a.classList.add("section2a");
   sec2b.classList.add("section2b");
   sec3.classList.add("section3");
+  sec3a.classList.add("section3a");
 
   container.appendChild(sec1);
   container.appendChild(sec2);
@@ -84,10 +86,10 @@ function displayWeather(data) {
   sec2a.appendChild(humDisplay);
   sec2b.appendChild(info);
   sec2b.appendChild(emoji);
-  sec3.appendChild(windDisplay);
-  sec3.appendChild(sunriseDisplay);
-  sec3.appendChild(sunsetDisplay);
-  console.log(container);
+  sec3.appendChild(sec3a);
+  sec3a.appendChild(windDisplay);
+  sec3a.appendChild(sunriseDisplay);
+  sec3a.appendChild(sunsetDisplay);
 }
 function getWeatherEmoji(weatherId) {
   switch (true) {

@@ -118,8 +118,13 @@ button:hover {
 
 .section3 {
   width: 100%;
+  display: grid;
+  justify-items: center;
   font-size: large;
   color: #dcdcdc;
+}
+.section3a {
+  text-align: left;
 }
 
 .windDisplay::before {
@@ -128,6 +133,9 @@ button:hover {
 
 .sunriseDisplay::before {
   content: "𖤓 ";
+}
+.sunsetDisplay {
+  margin-top: 22px;
 }
 .sunsetDisplay::before {
   content: "☼ ";
