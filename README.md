@@ -20,3 +20,18 @@ A simple weather app that fetches real-time weather data using the **OpenWeather
    ```bash
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
+2. Open `index.html` in your browser.
+
+## API Key Setup
+1. Get a free API key from [OpenWeather](https://openweathermap.org/api).  
+2. Add your API key in `script.js`:
+   ```javascript
+   const API_KEY = "your_api_key_here";
+## Future Improvements
+- Add hourly/daily forecast charts  
+- Show location-based weather using Geolocation API  
+- Toggle between Celsius ↔ Fahrenheit  
+- Improved UI with themes  
+
+## License
+This project is licensed under the MIT License.
