@@ -9,6 +9,8 @@ weatherForm.addEventListener("submit", async (event) => {
   if (city) {
     try {
       const weatherData = await getWeatherData(city);
+      console.log(JSON.stringify(weatherData, null, 2));
+
       displayWeather(weatherData);
     } catch (error) {
       console.error(error);

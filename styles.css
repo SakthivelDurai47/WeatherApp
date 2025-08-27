@@ -1,14 +1,15 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
-  background-image: url(clouds.webp);
+  background-image: url(bg_img.png);
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .weatherForm {
@@ -21,15 +22,20 @@ body {
   padding: 10px;
   font-size: 1.5rem;
   font-weight: bold;
-  border: 2px solid #06202b;
+  border: 1px solid #06202b;
   border-radius: 10px;
   margin: 10px;
   width: 300px;
-  background-color: whitesmoke;
+  background-color: rgba(6, 6, 6, 0.2);
+  backdrop-filter: blur(5px);
+  outline: none;
 }
+/* .cityInput:focus {
+  outline: none;
+} */
 .displayContainer {
-  background-color: rgba(245, 245, 245, 0.255);
-  backdrop-filter: blur(10px);
+  background-color: rgba(6, 6, 6, 0.2);
+  backdrop-filter: blur(5px);
   border: 1px solid #06202b44;
   display: flex;
   flex-direction: column;
@@ -45,13 +51,14 @@ button[type="submit"] {
   padding: 10px 10px;
   font-weight: bold;
   font-size: 1.2rem;
-  background-color: #06202b;
+  background-color: #131b23;
   color: white;
   width: 200px;
-  border-radius: 10px;
+  border-radius: 100px;
   cursor: pointer;
   border: none;
 }
+
 button:hover {
   background-color: whitesmoke;
   color: #06202b;
